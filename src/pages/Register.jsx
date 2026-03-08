@@ -6,7 +6,7 @@ export default function Register() {
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
-  const [isLoading, setIsLoading] = useState(false); // NEW: Loading state
+  const [isLoading, setIsLoading] = useState(false); // Loading state
 
   const handleRegister = async (e) => {
     e.preventDefault();
@@ -20,7 +20,7 @@ export default function Register() {
 
     try {
       // Send a POST request to your real backend
-      const response = await fetch('http://localhost:5000/api/auth/register', {
+      const response = await fetch('http://https://shaadibio-backend-2ect.onrender.com/api/auth/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

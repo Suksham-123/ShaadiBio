@@ -17,7 +17,7 @@ export default function Login() {
     const password = e.target.password.value;
 
     try {
-      const response = await fetch('http://localhost:5000/api/auth/login', {
+      const response = await fetch('http://https://shaadibio-backend-2ect.onrender.com/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -20,7 +20,7 @@ export default function Register() {
 
     try {
       // Send a POST request to your real backend
-      const response = await fetch('http://https://shaadibio-backend-2ect.onrender.com/api/auth/register', {
+      const response = await fetch('https://shaadibio-backend-2ect.onrender.com/api/auth/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

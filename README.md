@@ -2,7 +2,7 @@
 
 A full-stack web application designed to help users create, customize, and download beautiful matrimonial biodatas in seconds. Built with the MERN stack (MongoDB, Express, React, Node.js).
 
-https://shaadi-bio-inky.vercel.app/login
+https://shaadi-bio-inky.vercel.app
 
 ## ✨ Features
 
